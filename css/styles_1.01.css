@@ -1,0 +1,360 @@
+/* Wei-Ting Lin, weiting.dev@gmail.com */
+
+html {
+    position: relative;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #563A34;
+    line-height: 1.75;
+    background-color: #fff;
+}
+
+body p {
+    padding-left: 100px;
+    padding-right: 85px;
+}
+
+article {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0 100px 0;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Raleway', serif;
+    font-size: 30pt;
+    color: #d51e2c;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h3 {
+    font-size: 13pt;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+article ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.store-info {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-map {
+    width: 500px;
+    height: 315px;
+    border: 0;
+    padding: 0 25px 10px 25px;
+    float: left;
+}
+
+.questions {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* Header */
+.top-logo {
+    position: relative;
+    text-align: center;
+}
+
+.menu {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    font-size: 15pt;
+    position: absolute;
+    top: 100px;
+    height: 60px;
+    width: 100%;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+}
+
+nav ul {
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    display: block;
+    background-color: #fff;
+    line-height: 32px;
+    padding: 14px 15px;
+}
+
+nav ul li {
+	position: relative;
+}
+
+nav ul li a:hover {
+	background: #fbfbfb;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+}
+
+nav ul ul a {
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul ul li {
+	width: 172px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.top-banner {
+    position: relative;
+    top: 32px;
+    overflow: hidden;
+}
+
+.top-banner img {
+    min-width: 100%;
+    height: auto;
+}
+
+
+/* Images */
+img:not(.hero) {
+    padding: 13px 13px 0 13px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.fotorama {
+    z-index: -1;
+    position: relative;
+    margin: auto;
+    width: 725px;
+}
+
+
+/* Links */
+nav a {
+    text-decoration: none;
+    color: #659EB4;
+    display: block;
+    padding: 0.5em 1.5em;
+}
+
+article a, 
+p a,
+footer a {
+    text-decoration: none;
+    color: #659EB4;
+}
+
+a:visited {
+    color: #659EB4;
+}
+
+a:hover {
+    color: #2C333C;
+}
+
+a:active {
+    color: #659EB4;
+}
+
+
+/* Form */
+.contact {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin: 2px;
+}
+
+#clear {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#clear:hover {
+    background-color: #659EB4;
+    color: #fff;
+}
+
+#sub-submit {
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sub-submit:hover {
+    background-color: #659EB4;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #659EB4;
+    color: #fff;
+}
+
+
+/* Social Media */
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px 35px;
+}
+
+aside ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+    color: #FFAEC9;
+    text-decoration: none;
+}
+
+.fa-facebook:visited,
+.fa-twitter:visited,
+.fa-instagram:visited {
+    color: #FFAEC9;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    color: #2C333C;
+}
+
+.fa-facebook:active,
+.fa-twitter:active,
+.fa-instagram:active {
+    color: #FFAEC9;
+}
+
+
+/* Footer */
+footer {
+    font-size: 11pt;
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul,
+footer p {
+    list-style-type: none;
+    margin: 5px 0 15px 0;
+    padding-left: 0;
+}
+
+.column {
+    text-align: left;
+    padding: 75px 25px 25px 10px;
+    width: 35%;
+    padding-left: 35px;
+}
+
+.map {
+    width: 300px;
+    height: 200px;
+    border: 0;
+}
